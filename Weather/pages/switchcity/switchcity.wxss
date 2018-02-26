@@ -1,0 +1,100 @@
+/* pages/switchcity/switchcity.wxss */
+.container-inner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+
+}
+ .expressinfo{
+    font-size:12px;
+    line-height: 18px;
+    padding:10px; 
+    text-align:left;
+    border-top:1px solid #2a579a
+} 
+ .expressinfo li{display:block}
+ .ul {
+  display: block;
+  color: grey;
+  margin-left: 20rpx;
+}
+
+.li {
+  display: block;
+  font-weight: 100;
+  font-size: 28rpx;
+  padding: 16rpx 0;
+}
+.selection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 10rpx;
+}
+.searchLetter{
+    position: fixed;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    z-index: 1
+}
+
+.searchLetter view {
+  margin-top: 15rpx;
+}
+
+.touchClass {
+  background-color: #fff;
+  color: #fff;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+}
+
+.showSlectedLetter{
+    background-color: rgba(0, 0, 0,0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius:10px; 
+    font-size: 26px;
+    z-index: 1
+}
+
+.item_letter {
+  display: flex;
+  background-color: #f5f5f5;
+  height: 40rpx;
+  padding-left: 34rpx;
+  align-items: center;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.item_express {
+  display: flex;
+  background-color: #fff;
+  height: 100rpx;
+  padding-left: 34rpx;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+  font-size: 24rpx;
+  color: #666;
+}
