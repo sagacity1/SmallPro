@@ -1,0 +1,9 @@
+<input id="search" placeholder="这是一个可以自动聚焦的input" auto-focus bindinput="bindKeyInput"/>
+<view class="container">
+    <scroll-view scroll-y="true" style="height:{{winHeight}}px">
+        <view class="item_adress" wx:for="{{suggestArray}}" wx:for-item="ct" wx:key="id">
+          <text>{{ct.title}}</text>
+          <text class='addInfo'>{{ct.address}}</text>
+        </view>
+    </scroll-view>
+</view>

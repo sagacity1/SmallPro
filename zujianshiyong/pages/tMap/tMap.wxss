@@ -1,0 +1,27 @@
+#search{
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin:5%;
+    height: 10%;
+}
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+
+}
+.item_adress {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 88rpx;
+  padding-left: 34rpx;
+  border-bottom: 1rpx solid #ededed;
+  font-size: 31rpx;
+  color: #666;
+  padding-top: 12rpx;
+}
+.addInfo{
+  font-size:21rpx;
+}

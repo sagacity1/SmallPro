@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/tMap/tMap",
+    "pages/map1/map1",
+    "pages/map/map",
+    "pages/mapMove/mapMove",
+    "pages/scrollView/scrollView",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2a579a",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  }
+}
